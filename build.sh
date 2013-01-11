@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/bcallinmullaney
 
-ASHMAKEPATH="callinmullaney_make"
+callinmullaneyMAKEPATH="callinmullaney_make"
 
 # Check for proper number of command line args.
 EXPECTED_ARGS=2
@@ -19,11 +19,11 @@ CLIENT_CODE=$2
 #echo '# Cloning CallinMullaney_Make...'
 #echo '#####################################'
 
-# Removes ash_make folder if it exists
+# Removes callinmullaney_make folder if it exists
 # EG: the script failed first time and
 # is run for the second time
-#if [ -d $ASHMAKEPATH ]; then
-# rm -rf $ASHMAKEPATH
+#if [ -d $callinmullaneyMAKEPATH ]; then
+# rm -rf $callinmullaneyMAKEPATH
 #fi
 
 # Clone CallinMullaney_Make
@@ -89,14 +89,14 @@ echo "OK"
 # Replaces theme description
 echo -ne "Changing theme description ... "
 ORG_TEXT="Framework is a blank canvas for theme developers. Use Framework as a starting point to facilitate your theme development."
-REPLACE_WITH="Theme created by August Ash, Inc for $CLIENT_DOMAIN"
+REPLACE_WITH="Theme created by callinmullaney, Inc for $CLIENT_DOMAIN"
 sed -i 's/'"$ORG_TEXT"'/'"$REPLACE_WITH"'/' sites/$CLIENT_DOMAIN/themes/custom/$CLIENT_CODE/$CLIENT_CODE.info
 echo "OK"
 
 # Replaces information string
 echo -ne "Adding script information ... "
 ORG_TEXT="; Information added by drupal.org packaging script on.*"
-REPLACE_WITH="; Information added by August Ash, Inc packaging script on "`date +%Y-%m-%d`
+REPLACE_WITH="; Information added by callinmullaney, Inc packaging script on "`date +%Y-%m-%d`
 sed -i 's/'"$ORG_TEXT"'/'"$REPLACE_WITH"'/' sites/$CLIENT_DOMAIN/themes/custom/$CLIENT_CODE/$CLIENT_CODE.info
 echo "OK"
 

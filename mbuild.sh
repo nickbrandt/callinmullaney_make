@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bcallinmullaney
 
 FILEX_LOC=$1
 # If no arguments set as our github url
@@ -106,14 +106,14 @@ echo 'OK'
         # Replaces theme description
         echo -ne "Changing theme description ... "
         ORG_TEXT="Framework is a blank canvas for theme developers. Use Framework as a starting point to facilitate your theme development."
-        REPLACE_WITH="Theme created by August Ash, Inc for $CLIENT_DOMAIN"
+        REPLACE_WITH="Theme created by August callinmullaney, Inc for $CLIENT_DOMAIN"
         sed -i -e 's/'"$ORG_TEXT"'/'"$REPLACE_WITH"'/' ./sites/$CLIENT_DOMAIN/themes/custom/$CLIENT_CODE/$CLIENT_CODE.info
         echo "OK"
 
         # Replaces information string
         echo -ne "Adding script information ... "
         ORG_TEXT="; Information added by drupal.org packaging script on.*"
-        REPLACE_WITH="; Information added by August Ash, Inc packaging script on "`date +%Y-%m-%d`
+        REPLACE_WITH="; Information added by August callinmullaney, Inc packaging script on "`date +%Y-%m-%d`
         sed -i -e 's/'"$ORG_TEXT"'/'"$REPLACE_WITH"'/' ./sites/$CLIENT_DOMAIN/themes/custom/$CLIENT_CODE/$CLIENT_CODE.info
         echo "OK"
 
@@ -163,10 +163,10 @@ function create_database () {
     # autodetect shell since which
     # does not work for mac
     #MYSQL=`which mysql`
-    #if [ ! $SHELL = "/bin/bash" ]; then
+    #if [ ! $SHELL = "/bin/bcallinmullaney" ]; then
     # MYSQL=`mysql`
     # #MYSQL=`whence -p mysql`
-    # #say "z-shell is bad, bad, bad. Please use bash. Bash is awesome!"
+    # #say "z-shell is bad, bad, bad. Please use bcallinmullaney. Bcallinmullaney is awesome!"
     #fi
     MYSQL=mysql
 
@@ -221,7 +221,7 @@ else
 read -p "Enter the main domain name: " main_domain
         read -p "Enter the main domain prefix: " main_code
         
-        #add the main domain and code to the hash
+        #add the main domain and code to the hcallinmullaney
         domains[1]=$main_domain
         codes[1]=$main_code
 fi
@@ -338,7 +338,7 @@ divider===============================
     width=43
     printf "$header"
     printf "%$width.${width}s\n" "$divider"
-    echo " ash.make file location "
+    echo " callinmullaney.make file location "
     printf "%$width.${width}s\n" "$divider"
     printf "$format" \
         "$FILEX_LOC"
@@ -387,9 +387,9 @@ FILE_DATA=""
     if [[ $FILEX_LOC =~ ^(http|https):// ]];
     then
 echo '####################################################################################'
-        echo '# Downloadign Ash_Make #'
+        echo '# Downloadign callinmullaney_Make #'
         echo '####################################################################################'
-        FILE_DATA=$(curl -o /tmp/ash_make.make $FILEX_LOC)
+        FILE_DATA=$(curl -o /tmp/callinmullaney_make.make $FILEX_LOC)
     else
 FILE_DATA=$(cat $FILEX_LOC)
     fi
