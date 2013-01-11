@@ -1,4 +1,4 @@
-#!/bin/bcallinmullaney
+#!/bin/bash
 
 callinmullaneyMAKEPATH="callinmullaney_make"
 

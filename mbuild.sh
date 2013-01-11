@@ -1,4 +1,4 @@
-#!/bin/bcallinmullaney
+#!/bin/bash
 
 FILEX_LOC=$1
 # If no arguments set as our github url
@@ -163,10 +163,10 @@ function create_database () {
     # autodetect shell since which
     # does not work for mac
     #MYSQL=`which mysql`
-    #if [ ! $SHELL = "/bin/bcallinmullaney" ]; then
+    #if [ ! $SHELL = "/bin/bash" ]; then
     # MYSQL=`mysql`
     # #MYSQL=`whence -p mysql`
-    # #say "z-shell is bad, bad, bad. Please use bcallinmullaney. Bcallinmullaney is awesome!"
+    # #say "z-shell is bad, bad, bad. Please use bash. bash is awesome!"
     #fi
     MYSQL=mysql
 
