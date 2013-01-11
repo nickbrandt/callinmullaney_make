@@ -1,4 +1,4 @@
-# Ash Make Drupal Installation
+# CallinMullaney Make Drupal Installation
 
 This Document describes all the necessary steps to install Drupal using callinmullaney_make.
 
