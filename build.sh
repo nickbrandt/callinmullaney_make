@@ -131,7 +131,7 @@ echo "# Editing File sites.php "
 echo "#####################################"
 echo -ne "Editing file sites/sites.php ... "
 echo '$sites["'$CLIENT_CODE.dev'"] = "'$CLIENT_DOMAIN'";' >> sites/sites.php
-echo '$sites["'aai$CLIENT_CODE.victor.aaidev.net'"] = "'$CLIENT_DOMAIN'";' >> sites/sites.php
+echo '$sites["'staging.$CLIENT_DOMAIN'"] = "'$CLIENT_DOMAIN'";' >> sites/sites.php
 echo "OK\n"
 
 echo "#####################################"
