@@ -397,8 +397,7 @@ FILE_DATA=$(cat $FILEX_LOC)
 echo '####################################################################################'
     echo '# Running Drush #'
     echo '####################################################################################'
-    #drush make callinmullaney_make/callinmullaney_make.make .
-    drush make "/tmp/callinmullaney_make.make" .
+    drush make callinmullaney_make/callinmullaney_make.make .
 
     run_edits
     
