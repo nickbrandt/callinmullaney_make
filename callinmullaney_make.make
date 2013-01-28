@@ -77,7 +77,6 @@ libraries[tinymce][destination] = "libraries"
 projects[callinmullaney_profile][type] = "profile"
 projects[callinmullaney_profile][download][type] = "git"
 projects[callinmullaney_profile][download][url] = "git://github.com/callinmullaney/callinmullaney_profile.git"
-projects[callinmullaney_profile][download][tag] = "7.x-1.0"
 
 ; AAI Custom Modules
 ;projects[ash_blog][type] = "module"
