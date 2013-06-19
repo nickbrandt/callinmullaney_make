@@ -27,7 +27,7 @@ projects[drupal][subdir] = ''
 projects[addressfield][version] = "1.0-beta4"
 
 ; Administration menu 
-projects[admin_menu][version] = "3.0-rc4"
+projects[admin_menu][version] = ""
 
 ; Better Exposed Filters
 projects[better_exposed_filters][version] = "3.0-beta3"
@@ -108,7 +108,7 @@ projects[geophp][version] = "1.7"
 projects[google_analytics][version] = "1.3"
 
 ; IMCE
-projects[imce][version] = "1.7"
+projects[imce][version] = ""
 
 ; IMCE Mkdir
 projects[imce_mkdir][version] = "1.0"
@@ -135,7 +135,7 @@ projects[metatags_quick][version] = "2.7"
 projects[module_filter][version] = "1.7"
 
 ; Node and Comments Form Settings
-projects[page_title][version] = "2.x-dev"
+projects[nodeformsettings][version] = "2.x-dev"
 
 ; Page Title
 projects[page_title][version] = "2.7"
@@ -153,10 +153,13 @@ projects[quicktabs][version] = "3.4"
 projects[redirect][version] = "1.0-rc1"
 
 ; References
-projects[references][version] = "2.1"
+projects[references][version] = ""
 
 ; SMTP Authentication Support
 projects[smtp][version] = "1.0"
+
+; Strongarm
+projects[strongarm][version] = "2.0"
 
 ; Text List Formatter
 projects[textformatter][version] = "1.3"
@@ -213,7 +216,7 @@ projects[bootstrap][version] = "2.0"
 
 ; CKEditor 4.1.2
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%4.1.2/ckeditor_4.1.2_standard.zip"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor 4.1.2/ckeditor_4.1.2_standard.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = "library"
 
@@ -231,6 +234,6 @@ libraries[ckeditor][type] = "library"
 ; =============================================
 
 projects[callinmullaney_profile][type] = "profile"
+projects[callinmullaney_profile][subdir] = ""
 projects[callinmullaney_profile][download][type] = "git"
 projects[callinmullaney_profile][download][url] = "git://github.com/callinmullaney/callinmullaney_profile.git"
-
