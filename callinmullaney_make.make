@@ -29,6 +29,9 @@ projects[addressfield][version] = "1.0-beta4"
 ; Administration menu 
 projects[admin_menu][version] = ""
 
+; Advanced Text Formatter
+projects[advanced_text_formatter][version] = ""
+
 ; Better Exposed Filters
 projects[better_exposed_filters][version] = "3.0-beta3"
 
