@@ -29,6 +29,9 @@ projects[addressfield][version] = "1.0-beta4"
 ; Administration menu 
 projects[admin_menu][version] = ""
 
+; Administration menu 
+projects[adminimal_admin_menu][version] = ""
+
 ; Advanced Text Formatter
 projects[advanced_text_formatter][version] = ""
 
@@ -210,6 +213,9 @@ projects[xmlsitemap][version] = "2.0-rc2"
 
 projects[bootstrap][type] = "theme"
 projects[bootstrap][version] = "2.0"   
+
+projects[adminimal_theme][type] = "theme"
+projects[adminimal_theme][version] = "1.x-dev"  
 
 
 
