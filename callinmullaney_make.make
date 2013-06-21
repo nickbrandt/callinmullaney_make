@@ -29,7 +29,7 @@ projects[addressfield][version] = "1.0-beta4"
 ; Administration menu 
 projects[admin_menu][version] = ""
 
-; Administration menu 
+; Adminimal Admin Menu 
 projects[adminimal_admin_menu][version] = ""
 
 ; Advanced Text Formatter
