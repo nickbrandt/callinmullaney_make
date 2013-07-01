@@ -15,7 +15,7 @@ core = 7.x
 defaults[projects][subdir] = "contrib"
 
 projects[drupal][type] = "core"
-projects[drupal][version] = "7.22"
+projects[drupal][version] = ""
 projects[drupal][subdir] = ''
 
 
@@ -26,7 +26,7 @@ projects[drupal][subdir] = ''
 ; Address Field
 projects[addressfield][version] = "1.0-beta4"
 
-; Administration menu 
+; Administration Menu 
 projects[admin_menu][version] = ""
 
 ; Adminimal Admin Menu 
@@ -42,40 +42,40 @@ projects[better_exposed_filters][version] = "3.0-beta3"
 projects[better_formats][version] = "1.0-beta1"
 
 ; Breakpoints
-projects[breakpoints][version] = "1.1"
+projects[breakpoints][version] = ""
 
 ; Colorbox
-projects[colorbox][version] = "2.4"
+projects[colorbox][version] = ""
 
 ; Context
 projects[context][version] = "3.0-beta6"
 
 ; Chaos tool suite
-projects[ctools][version] = "1.3"
+projects[ctools][version] = ""
 
 ; CKEditor - WYSIWYG HTML editor
-projects[ckeditor][version] = "1.13"
+projects[ckeditor][version] = ""
 
 ; CKEditor Link
-projects[ckeditor_link][version] = "2.3"
+projects[ckeditor_link][version] = ""
 
 ; CKEditor Link File
-projects[ckeditor_link_file][version] = "1.2"
+projects[ckeditor_link_file][version] = ""
 
 ; Crumbs, the breadcrumbs suite
-projects[crumbs][version] = "1.9"
+projects[crumbs][version] = ""
 
 ; Date
-projects[date][version] = "2.6"
+projects[date][version] = ""
 
 ; Date iCal
-projects[date_ical][version] = "2.8"
+projects[date_ical][version] = ""
 
 ; Default Menu Link
-projects[default_menu_link][version] = "1.2"
+projects[default_menu_link][version] = ""
 
 ; Devel
-projects[devel][version] = "1.3"
+projects[devel][version] = ""
 
 ; Entity API
 projects[entity][version] = ""
@@ -84,7 +84,7 @@ projects[entity][version] = ""
 projects[eck][version] = "2.0-rc2"
 
 ; External Links
-projects[extlink][version] = "1.12"
+projects[extlink][version] = ""
 
 ; Features
 projects[features][version] = "2.0-rc1"
@@ -99,61 +99,61 @@ projects[field_collection][version] = "1.0-beta5"
 projects[field_collection_views][version] = "1.0-beta3"
 
 ; Field group
-projects[field_group][version] = "1.1"
+projects[field_group][version] = ""
 
 ; File entity (fieldable files)
 projects[file_entity][version] = "2.0-unstable3"
 
 ; Geofield
-projects[geofield][version] = "1.1"
+projects[geofield][version] = ""
 
 ; GeoPHP
-projects[geophp][version] = "1.7"
+projects[geophp][version] = ""
 
 ; Google Analytics
-projects[google_analytics][version] = "1.3"
+projects[google_analytics][version] = ""
 
 ; IMCE
 projects[imce][version] = ""
 
 ; IMCE Mkdir
-projects[imce_mkdir][version] = "1.0"
+projects[imce_mkdir][version] = ""
 
 ; IMCE Wysiwyg bridge
-projects[imce_wysiwyg][version] = "1.0"
+projects[imce_wysiwyg][version] = ""
 
 ; Jquery Update
-projects[jquery_update][version] = "2.3"
+projects[jquery_update][version] = ""
 
 ; Libraries
-projects[libraries][version] = "2.1"
+projects[libraries][version] = ""
 
 ; Link
-projects[link][version] = "1.1"
+projects[link][version] = ""
 
 ; Menu Block
-projects[menu_block][version] = "2.3"
+projects[menu_block][version] = ""
 
 ; Meta tags quick
-projects[metatags_quick][version] = "2.7"
+projects[metatags_quick][version] = ""
 
 ; Module Filter
-projects[module_filter][version] = "1.7"
+projects[module_filter][version] = ""
 
 ; Node and Comments Form Settings
 projects[nodeformsettings][version] = "2.x-dev"
 
 ; Page Title
-projects[page_title][version] = "2.7"
+projects[page_title][version] = ""
 
 ; Pathauto
-projects[pathauto][version] = "1.2"
+projects[pathauto][version] = ""
 
 ; Publish button
 projects[publish_button][version] = "1.0-beta8"
 
 ; Quick Tabs
-projects[quicktabs][version] = "3.4"
+projects[quicktabs][version] = ""
 
 ; Redirect
 projects[redirect][version] = "1.0-rc1"
@@ -162,34 +162,34 @@ projects[redirect][version] = "1.0-rc1"
 projects[references][version] = ""
 
 ; SMTP Authentication Support
-projects[smtp][version] = "1.0"
+projects[smtp][version] = ""
 
 ; Strongarm
-projects[strongarm][version] = "2.0"
+projects[strongarm][version] = ""
 
 ; Text List Formatter
-projects[textformatter][version] = "1.3"
+projects[textformatter][version] = ""
 
 ; Token
-projects[token][version] = "1.5"
+projects[token][version] = ""
 
 ; Views
-projects[views][version] = "3.7"
+projects[views][version] = ""
 
 ; Views Load More
-projects[views_load_more][version] = "1.1"
+projects[views_load_more][version] = ""
 
 ; Views Slideshow
-projects[views_slideshow][version] = "3.0"
+projects[views_slideshow][version] = ""
 
 ; BxSlider Views Slideshow
-projects[bxslider_views_slideshow][version] = "1.41"
+projects[bxslider_views_slideshow][version] = ""
 
 ; Views UI: Edit Basic Settings
-projects[views_ui_basic][version] = "1.2"
+projects[views_ui_basic][version] = ""
 
 ; Webform
-projects[webform][version] = "3.19"
+projects[webform][version] = ""
 
 ; XML sitemap
 projects[xmlsitemap][version] = "2.0-rc2"
@@ -212,7 +212,7 @@ projects[xmlsitemap][version] = "2.0-rc2"
 ; =============================================
 
 projects[bootstrap][type] = "theme"
-projects[bootstrap][version] = "2.0"   
+projects[bootstrap][version] = ""   
 
 projects[adminimal_theme][type] = "theme"
 projects[adminimal_theme][version] = "1.x-dev"  
