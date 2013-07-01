@@ -113,15 +113,6 @@ projects[geophp][version] = ""
 ; Google Analytics
 projects[google_analytics][version] = ""
 
-; IMCE
-projects[imce][version] = ""
-
-; IMCE Mkdir
-projects[imce_mkdir][version] = ""
-
-; IMCE Wysiwyg bridge
-projects[imce_wysiwyg][version] = ""
-
 ; Jquery Update
 projects[jquery_update][version] = ""
 
