@@ -92,12 +92,6 @@ projects[features][version] = "2.0-rc1"
 ; Feeds
 projects[feeds][version] = "2.0-alpha8"
 
-; Field collection
-projects[field_collection][version] = "1.0-beta5"
-
-; Field Collection Views
-projects[field_collection_views][version] = "1.0-beta3"
-
 ; Field group
 projects[field_group][version] = ""
 
@@ -112,6 +106,9 @@ projects[geophp][version] = ""
 
 ; Google Analytics
 projects[google_analytics][version] = ""
+
+;Inline Entity Form
+projects[inline_entity_form][version] = ""
 
 ; Jquery Update
 projects[jquery_update][version] = ""
