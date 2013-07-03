@@ -9,10 +9,7 @@ Inside domain folder run the following command.
 
     $ git clone git://github.com/callinmullaney/callinmullaney_make.git
 
-### Download Drupal and Contrib files
+### Download Drupal and Contrib files with drush make
 
-There are no core file included in this repo.
-
-	cd [project name]
-    drush make callinmullaney_make.make
+    drush make callinmullaney_make/callinmullaney_make.make .
     
