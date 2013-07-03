@@ -3,7 +3,7 @@
 This Document describes all the necessary steps to install Drupal using callinmullaney_make.
 
 
-##### Clone CallinMullaney Make
+### Clone CallinMullaney Make
 Create the domain folder inside your projects folder.
 Inside domain folder run the following command.
 

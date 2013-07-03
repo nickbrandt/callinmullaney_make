@@ -83,6 +83,9 @@ projects[entity][version] = ""
 ; Entity Construction Kit (ECK)
 projects[eck][version] = "2.0-rc2"
 
+; Entity Reference 
+projects[entityreference][version] = ""
+
 ; External Links
 projects[extlink][version] = ""
 
