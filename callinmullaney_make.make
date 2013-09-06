@@ -200,18 +200,16 @@ projects[xmlsitemap][version] = "2.0-rc2"
 ;
 ; An article content type built with flexibility in mind.
 ; @see https://github.com/callinmullaney/advanced_article
-projects[valet][subdir] = "custom"
-projects[valet][type] = "module"
-projects[valet][download][type] = "git"
-projects[valet][download][url] = "git@github.com:callinmullaney/advanced_article.git"
+projects[advanced_article][subdir] = "custom"
+projects[advanced_article][type] = "module"
+projects[advanced_article][download][type] = "git"
+projects[advanced_article][download][url] = "git@github.com:callinmullaney/advanced_article.git"
 
 
 ; =============================================
 ; Themes
 ; =============================================
 
-projects[bootstrap][type] = "theme"
-projects[bootstrap][version] = ""   
 
 projects[adminimal_theme][type] = "theme"
 projects[adminimal_theme][version] = "1.x-dev"  
