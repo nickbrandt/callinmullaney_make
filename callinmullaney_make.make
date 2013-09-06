@@ -191,11 +191,19 @@ projects[xmlsitemap][version] = "2.0-rc2"
 
 
 ; =============================================
-; Contrib Modules - Custom
+; Custom Modules - Custom
 ; =============================================
 
 ; Set before each module - projects[][subdir] = "custom"
 
+; Advanced Article
+;
+; An article content type built with flexibility in mind.
+; @see https://github.com/callinmullaney/advanced_article
+projects[valet][subdir] = "custom"
+projects[valet][type] = "module"
+projects[valet][download][type] = "git"
+projects[valet][download][url] = "git@github.com:callinmullaney/advanced_article.git"
 
 
 ; =============================================
