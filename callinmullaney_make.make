@@ -217,7 +217,7 @@ projects[adminimal_theme][version] = "1.0"
 ; Fett is a basetheme of awesomeness that uses Foundation 5 and SASS.
 ; @see https://github.com/JaceRider/Fett
 projects[Fett][subdir] = "custom"
-projects[Fett][type] = "module"
+projects[Fett][type] = "theme"
 projects[Fett][download][type] = "git"
 projects[Fett][download][url] = "git@github.com:JaceRider/Fett.git"
 
