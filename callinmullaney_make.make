@@ -77,6 +77,9 @@ projects[devel][version] = "1.4"
 ; Entity API
 projects[entity][version] = "1.3"
 
+; Entity cache
+projects[entitycache][version] = "1.2"
+
 ; Entity Construction Kit (ECK)
 projects[eck][version] = "2.0-rc2"
 
