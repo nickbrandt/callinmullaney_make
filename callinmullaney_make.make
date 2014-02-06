@@ -173,7 +173,7 @@ projects[views_slideshow][version] = "3.1"
 ; BxSlider Views Slideshow
 projects[bxslider_views_slideshow][version] = "1.50"
 
-; Views UI: Edit Basic Settings
+; Views UI Edit Basic Settings
 projects[views_ui_basic][version] = "1.2"
 
 ; Webform
@@ -232,6 +232,11 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = "library"
 
+; Colorbox
+libraries[colorbox][download][type] = "get"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
+libraries[colorbox][directory_name] = "colorbox"
+libraries[colorbox][type] = "library"
 
 
 ; =============================================
