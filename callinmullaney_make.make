@@ -110,8 +110,11 @@ projects[geophp][version] = "1.7"
 ; Google Analytics
 projects[google_analytics][version] = "1.4"
 
-;Inline Entity Form
+; Inline Entity Form
 projects[inline_entity_form][version] = "1.5"
+
+; JQuery Update
+projects[jquery_update][version] = "2.x-dev"
 
 ; Libraries
 projects[libraries][version] = "2.1"
@@ -196,14 +199,23 @@ projects[xmlsitemap][version] = "2.0-rc2"
 
 ; Set before each module - projects[][subdir] = "custom"
 
-; Advanced Article
+; Sonar
 ;
-; An article content type built with flexibility in mind.
-; @see https://github.com/callinmullaney/advanced_article
-; projects[advanced_article][subdir] = "custom"
-; projects[advanced_article][type] = "module"
-; projects[advanced_article][download][type] = "git"
-; projects[advanced_article][download][url] = "git@github.com:callinmullaney/advanced_article.git"
+; Compass compiler for Drupal
+; @see https://github.com/JaceRider/Sonar/tree/develop
+projects[Sonar][subdir] = "custom"
+projects[Sonar][type] = "module"
+projects[Sonar][download][type] = "git"
+projects[Sonar][download][url] = "git@github.com:JaceRider/Sonar.git"
+
+; Fawesome
+;
+; Font Awesome for Drupal
+; @see https://github.com/JaceRider/Fawesome
+projects[Fawesome][subdir] = "custom"
+projects[Fawesome][type] = "module"
+projects[Fawesome][download][type] = "git"
+projects[Fawesome][download][url] = "git@github.com:JaceRider/Fawesome.git"
 
 
 ; =============================================
