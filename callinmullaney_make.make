@@ -155,6 +155,9 @@ projects[references][version] = "2.1"
 ; SMTP Authentication Support
 projects[smtp][version] = "1.0"
 
+; Special menu items
+projects[special_menu_items][version] = "2.0"
+
 ; Strongarm
 projects[strongarm][version] = "2.0"
 
