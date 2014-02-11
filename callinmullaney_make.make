@@ -134,6 +134,9 @@ projects[module_filter][version] = "2.0-alpha2"
 ; Node and Comments Form Settings
 projects[nodeformsettings][version] = "2.x-dev"
 
+; Node Clone
+projects[node_clone][version] = "1.0-rc2"
+
 ; Page Title
 projects[page_title][version] = "2.7"
 
