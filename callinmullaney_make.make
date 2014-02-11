@@ -74,6 +74,9 @@ projects[default_menu_link][version] = "1.3"
 ; Devel
 projects[devel][version] = "1.4"
 
+; DraggableViews
+projects[draggableviews][version] = "2.0"
+
 ; Entity API
 projects[entity][version] = "1.3"
 
