@@ -36,7 +36,7 @@ projects[adminimal_admin_menu][version] = "1.5"
 projects[advanced_text_formatter][version] = "1.2"
 
 ; Better Exposed Filters
-projects[better_exposed_filters][version] = "3.0-beta3"
+projects[better_exposed_filters][version] = "3.0-beta4"
 
 ; Better Formats
 projects[better_formats][version] = "1.0-beta1"
@@ -48,7 +48,7 @@ projects[colorbox][version] = "2.5"
 projects[context][version] = "3.2"
 
 ; Chaos tool suite
-projects[ctools][version] = "1.3"
+projects[ctools][version] = "1.4"
 
 ; CKEditor - WYSIWYG HTML editor
 projects[ckeditor][version] = "1.13"
@@ -119,6 +119,9 @@ projects[geophp][version] = "1.7"
 ; Google Analytics
 projects[google_analytics][version] = "1.4"
 
+; IMCE
+projects[imce][version] = "1.8"
+
 ; Inline Entity Form
 projects[inline_entity_form][version] = "1.5"
 
@@ -126,7 +129,7 @@ projects[inline_entity_form][version] = "1.5"
 projects[jquery_update][version] = "2.x-dev"
 
 ; Libraries
-projects[libraries][version] = "2.1"
+projects[libraries][version] = "2.2"
 
 ; Link
 projects[link][version] = "1.2"
@@ -198,7 +201,7 @@ projects[bxslider_views_slideshow][version] = "1.50"
 projects[views_ui_basic][version] = "1.2"
 
 ; Webform
-projects[webform][version] = "3.19"
+projects[webform][version] = "4.0-beta3"
 
 ; XML sitemap
 projects[xmlsitemap][version] = "2.0-rc2"
