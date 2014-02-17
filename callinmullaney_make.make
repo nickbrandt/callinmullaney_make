@@ -77,6 +77,9 @@ projects[devel][version] = "1.4"
 ; DraggableViews
 projects[draggableviews][version] = "2.0"
 
+; Email
+projects[email][version] = "1.2"
+
 ; Entity API
 projects[entity][version] = "1.3"
 
@@ -103,6 +106,9 @@ projects[field_group][version] = "1.3"
 
 ; File entity (fieldable files)
 projects[file_entity][version] = "2.0-alpha3"
+
+; Geocoder
+projects[geocoder][version] = "1.2"
 
 ; Geofield
 projects[geofield][version] = "2.1"
