@@ -44,6 +44,9 @@ projects[better_formats][version] = "1.0-beta1"
 ; Colorbox
 projects[colorbox][version] = "2.5"
 
+; Content Menu
+projects[content_menu][version] = "1.0"
+
 ; Context
 projects[context][version] = "3.2"
 
@@ -136,6 +139,9 @@ projects[link][version] = "1.2"
 
 ; Menu Block
 projects[menu_block][version] = "2.3"
+
+; Menu Item Visibility
+projects[menu_item_visibility][version] = "2.3"
 
 ; Meta tags quick
 projects[metatags_quick][version] = "2.7"
