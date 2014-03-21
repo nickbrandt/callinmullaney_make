@@ -81,7 +81,7 @@ projects[draggableviews][version] = "2.0"
 projects[email][version] = "1.2"
 
 ; Entity API
-projects[entity][version] = "1.3"
+projects[entity][version] = "1.4"
 
 ; Entity cache
 projects[entitycache][version] = "1.2"
@@ -156,7 +156,7 @@ projects[page_title][version] = "2.7"
 projects[pathauto][version] = "1.2"
 
 ; Publish button
-projects[publish_button][version] = "1.0-beta8"
+projects[publish_button][version] = "1.0"
 
 ; Quick Tabs
 projects[quicktabs][version] = "3.6"
@@ -204,7 +204,7 @@ projects[views_ui_basic][version] = "1.2"
 projects[webform][version] = "4.0-beta3"
 
 ; XML sitemap
-projects[xmlsitemap][version] = "2.0-rc2"
+projects[xmlsitemap][version] = "2.0"
 
 
 ;----- Project Specific Contrib Modules -------
